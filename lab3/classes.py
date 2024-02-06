@@ -109,9 +109,3 @@ numbers = list(input())
 prime_numbers = list(filter(lambda x: x.strip() != '' and is_prime(int(x)), numbers))
 print(prime_numbers)
 """
-
-
-
-mile = [1.0, 6.5, 9]
-kilometer = list(map((lambda x: x * 1,6 ,mile)))
-print(kilometer)
